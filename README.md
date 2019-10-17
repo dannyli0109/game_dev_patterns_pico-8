@@ -5,7 +5,7 @@
 - Design Patterns Revisited
     - [x] Command
     - [ ] Flyweight
-    - [ ] Observer
+    - [x] Observer
     - [ ] Prototype
     - [ ] Singleton
     - [ ] State
