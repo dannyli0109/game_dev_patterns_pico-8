@@ -1,4 +1,4 @@
-### Game Design Pattern Implementation In PICO-8
+### Game Programming Pattern Implementation In PICO-8
 
 #### Following the book ["Game Programming Patterns"](https://gameprogrammingpatterns.com)
 
