@@ -11,7 +11,7 @@
     - [x] State
 - Sequencing Patterns
     - [ ] Double Buffer
-    - [ ] Game Loop
+    - [x] Game Loop
     - [ ] Update Method
 - Behavioral Patterns
     - [ ] Bytecode
