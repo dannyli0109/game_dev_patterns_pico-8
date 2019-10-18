@@ -7,7 +7,7 @@
     - [ ] Flyweight
     - [x] Observer
     - [x] Prototype
-    - [ ] Singleton
+    - [x] Singleton
     - [ ] State
 - Sequencing Patterns
     - [ ] Double Buffer
