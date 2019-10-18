@@ -8,7 +8,7 @@
     - [x] Observer
     - [x] Prototype
     - [x] Singleton
-    - [ ] State
+    - [x] State
 - Sequencing Patterns
     - [ ] Double Buffer
     - [ ] Game Loop
