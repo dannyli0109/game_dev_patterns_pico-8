@@ -6,7 +6,7 @@
     - [x] Command
     - [ ] Flyweight
     - [x] Observer
-    - [ ] Prototype
+    - [x] Prototype
     - [ ] Singleton
     - [ ] State
 - Sequencing Patterns
