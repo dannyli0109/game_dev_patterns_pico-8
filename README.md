@@ -16,7 +16,7 @@
 - Behavioral Patterns
     - [ ] Bytecode
     - [ ] Subclass Sandbox
-    - [ ] Type Object
+    - [x] Type Object
 - Decoupling Patterns
     - [ ] Component
     - [ ] Event Queue

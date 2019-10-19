@@ -3,7 +3,6 @@ version 18
 __lua__
 function _init()
 	start_game()
-	b = ''
 end
 
 function _update60()
@@ -14,7 +13,6 @@ function _draw()
 	cls()
 	player.draw()
 	print(player.state.name)
-	print(b)
 end
 
 function start_game()
@@ -23,6 +21,7 @@ function start_game()
 	player = create_actor()
 end
 -->8
+--handle input
 function handle_input()
 	local pressed = false
 	for i=0,3 do 
