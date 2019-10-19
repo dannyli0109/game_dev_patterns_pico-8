@@ -19,7 +19,7 @@ end
 --update
 function update_game(elapsed)
 	c = {}
-	local x = sin(time() * 60 * elapsed) * 64 + 64
+	local x = map_val(sin(time() * 60 * elapsed), -1, 1, 0, 128-5)
 	local y = 64
 	local w = 5
 	for i=0,100 do
@@ -40,6 +40,16 @@ function draw_game()
 		local y = cc.y
 		rectfill(x, y, x+cc.w, y+cc.w,10)
 	end
+end
+-->8
+--tool
+
+--[[
+	map value from s1-s1 to s2-s2
+		0.5 0 1 0 256 returns 128
+	]]
+function map_val(_val, start1, stop1, start2, stop2)
+	return (_val - start1) * (stop2 - start2) / (stop1 - start1) + start2
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
