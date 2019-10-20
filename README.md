@@ -18,7 +18,7 @@
     - [ ] Subclass Sandbox
     - [x] Type Object
 - Decoupling Patterns
-    - [ ] Component
+    - [x] Component
     - [ ] Event Queue
     - [ ] Service Locator
 - Optimization Patterns
